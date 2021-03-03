@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="amazonite.android.appbasebk">
+    <application
+        android:allowBackup="true"
+        android:label="App Base with Butter Knife"
+        android:supportsRtl="true"/>
+</manifest>
