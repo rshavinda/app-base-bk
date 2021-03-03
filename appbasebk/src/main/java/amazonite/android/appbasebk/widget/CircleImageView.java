@@ -32,7 +32,7 @@ import android.widget.ImageView;
 
 import amazonite.android.appbasebk.R;
 
-public class CircleImageView extends ImageViewAlter {
+public class CircleImageView extends CustomImageView {
 
     private static final ImageView.ScaleType SCALE_TYPE = ImageView.ScaleType.CENTER_CROP;
 

@@ -18,18 +18,18 @@ import amazonite.android.appbasebk.utils.DateTimeUtil;
 import amazonite.android.appbasebk.utils.Helper;
 
 
-public class EditTextAlter extends AppCompatEditText {
+public class CustomEditText extends AppCompatEditText {
 
-    private static final String TAG = EditTextAlter.class.getSimpleName();
+    private static final String TAG = CustomEditText.class.getSimpleName();
     private TextInputLayout mTextInputLayout;
 
-    public EditTextAlter(Context context, AttributeSet attrs) {
+    public CustomEditText(Context context, AttributeSet attrs) {
         super(context, attrs);
         setCustomFont(attrs);
         setEmoji(context, attrs);
     }
 
-    public EditTextAlter(Context context, AttributeSet attrs, int defStyle) {
+    public CustomEditText(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         setCustomFont(attrs);
         setEmoji(context, attrs);

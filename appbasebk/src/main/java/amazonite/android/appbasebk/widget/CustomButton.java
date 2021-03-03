@@ -11,16 +11,16 @@ import amazonite.android.appbasebk.R;
 import amazonite.android.appbasebk.utils.Helper;
 
 
-public class ButtonAlter extends AppCompatButton {
+public class CustomButton extends AppCompatButton {
 
-    private static final String TAG = ButtonAlter.class.getSimpleName();
+    private static final String TAG = CustomButton.class.getSimpleName();
 
-    public ButtonAlter(Context context, AttributeSet attrs) {
+    public CustomButton(Context context, AttributeSet attrs) {
         super(context, attrs);
         setCustomFont(attrs);
     }
 
-    public ButtonAlter(Context context, AttributeSet attrs, int defStyle) {
+    public CustomButton(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         setCustomFont(attrs);
     }

@@ -10,16 +10,16 @@ import android.util.Log;
 import amazonite.android.appbasebk.R;
 
 
-public class CheckboxAlter extends AppCompatCheckBox {
+public class CustomCheckbox extends AppCompatCheckBox {
 
-    private static final String TAG = CheckboxAlter.class.getSimpleName();
+    private static final String TAG = CustomCheckbox.class.getSimpleName();
 
-    public CheckboxAlter(Context context, AttributeSet attrs) {
+    public CustomCheckbox(Context context, AttributeSet attrs) {
         super(context, attrs);
         setCustomFont(attrs);
     }
 
-    public CheckboxAlter(Context context, AttributeSet attrs, int defStyle) {
+    public CustomCheckbox(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         setCustomFont(attrs);
     }

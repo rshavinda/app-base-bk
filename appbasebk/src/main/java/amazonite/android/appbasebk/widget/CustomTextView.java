@@ -14,16 +14,16 @@ import amazonite.android.appbasebk.utils.DateTimeUtil;
 import amazonite.android.appbasebk.utils.Helper;
 
 
-public class TextViewAlter extends AppCompatTextView {
+public class CustomTextView extends AppCompatTextView {
 
-    private static final String TAG = TextViewAlter.class.getSimpleName();
+    private static final String TAG = CustomTextView.class.getSimpleName();
 
-    public TextViewAlter(Context context, AttributeSet attrs) {
+    public CustomTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
         setCustomFont(attrs);
     }
 
-    public TextViewAlter(Context context, AttributeSet attrs, int defStyle) {
+    public CustomTextView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         setCustomFont(attrs);
     }

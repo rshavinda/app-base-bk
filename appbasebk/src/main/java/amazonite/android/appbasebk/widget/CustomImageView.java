@@ -10,16 +10,16 @@ import amazonite.android.appbasebk.utils.CircleTransform;
 import amazonite.android.appbasebk.utils.Helper;
 
 
-public class ImageViewAlter extends AppCompatImageView {
-    public ImageViewAlter(Context context) {
+public class CustomImageView extends AppCompatImageView {
+    public CustomImageView(Context context) {
         super(context);
     }
 
-    public ImageViewAlter(Context context, AttributeSet attrs) {
+    public CustomImageView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public ImageViewAlter(Context context, AttributeSet attrs, int defStyleAttr) {
+    public CustomImageView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
